@@ -199,7 +199,7 @@ If the best probability is greater than or equal to the confidence threshold, th
 Run the script from the command line:
 
 ```bash
-python infer_tetraploid_dosage.py \
+python dosage_inference.py \
   --input input_ref_alt_counts.csv \
   --output inferred_genotypes.csv
 ```
@@ -207,7 +207,7 @@ python infer_tetraploid_dosage.py \
 Short option names are also supported:
 
 ```bash
-python infer_tetraploid_dosage.py \
+python dosage_inference.py \
   -i input_ref_alt_counts.csv \
   -o inferred_genotypes.csv
 ```
@@ -226,7 +226,7 @@ python infer_tetraploid_dosage.py \
 Example with custom parameters:
 
 ```bash
-python infer_tetraploid_dosage.py \
+python dosage_inference.py \
   -i potato_ref_alt_counts.csv \
   -o potato_dosage_calls.csv \
   --error 0.001 \
