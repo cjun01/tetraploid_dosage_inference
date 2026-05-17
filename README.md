@@ -298,6 +298,3 @@ However, for high-depth datasets with reliable REF/ALT counts, this simplified m
 
 ---
 
-## Author
-
-Prepared for dosage-aware SNP genotyping and downstream selection analysis in autotetraploid potato breeding populations.
